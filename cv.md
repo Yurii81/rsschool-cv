@@ -1,6 +1,6 @@
 # **Yuriy Bilan**
 ### *Contact Information:*
-**E-mail:** Bilanys81@mail.ru 
+**E-mail** Bilanys81@mail.ru 
 
 **Phone:** +7(967)352-77-09
 
