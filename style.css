@@ -6,3 +6,72 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(77, 41, 17);
+}
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.navigation-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navigation-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    color: rgb(252, 60, 1);
+    transition: color 0.5s;
+    text-decoration: none;
+}
+.section-item a {
+    color:brown;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    }
+.section {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+@media (max-width:768px) {
+    .section {
+        width: 100%;
+    }
+}
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: coral;
+}
+.rsschool {
+    width: 100px;
+    height: 50px;
+    background-image: url(https://rs.school/images/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.containerfooter {
+    display: flex;
+    justify-content: space-between;
+    }
